@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+table {
+  height: 60vh;
+}
+
+th {
+  border: 1px solid;
+  text-align: start;
+}
+
+td {
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  padding: 0 0.7rem;
+}
+
+td:last-child {
+  border-right: 1px solid;
+}
